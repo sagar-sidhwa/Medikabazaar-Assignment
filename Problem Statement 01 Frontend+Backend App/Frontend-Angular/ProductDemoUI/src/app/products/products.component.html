@@ -1,0 +1,98 @@
+<br><br><br>
+<div class="container">
+
+    <div class="alert alert-primary" role="alert">
+        <h1>This is a Products Details Table</h1>
+    </div>
+    <div style="margin-bottom: 7px;">
+        <div class="form-group row">
+            <i class="col-sm-1 fas fa-search">Search Here!</i>
+          <div class="col-sm-8">
+            <input class="form-control" type="text" [(ngModel)]="searchText" (input)="Search()" placeholder="Search by name"/>
+          </div>
+          <div class="col-sm-3">
+            <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#exampleModalCenter"><span><i class="fas fa-plus-square"></i></span> Add New Product</button>
+          </div>
+        </div>
+    </div>
+    <div>
+        <table mdbTable class="table">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Price (in Rupees)</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Action</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let p of products; let i = index">
+                  <td>{{i+1}}</td>
+                  <td><input type="text" class="form-control" [(ngModel)]="p.productname" [disabled]="!(i+1==index)" ></td>
+                  <td><input type="text" class="form-control" [(ngModel)]="p.productprice" [disabled]="!(i+1==index)"></td>
+                  <td><input type="text" class="form-control" [(ngModel)]="p.productquantity" [disabled]="!(i+1==index)"></td>
+                  <td>
+          
+                    <span *ngIf="!(i+1==index)">
+                      <span><button type="button" class="btn btn-primary" (click)="EditProduct(i+1)">Edit</button></span>
+                    </span>
+          
+                    <span *ngIf="(i+1==index)">
+                      <span class=" col-sm-6"><button type="submit" class="btn btn-success" (click)="UpdateProduct(p,p.pid)">Submit</button></span>
+                      <span class=" col-sm-6"><button type="cancel" class="btn btn-danger" (click)="CancelEditProduct()">Cancel</button></span>
+                    </span>
+          
+                  </td>
+              </tr>
+              </tbody>
+        </table>
+    </div>
+</div>
+
+<br><br><br>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <form #ProductForm="ngForm" (ngSubmit)="NewProduct(ProductForm.value)">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Register New Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <div class="form-group row">
+                  <label for="pname" class="col-sm-4 col-form-label">Product Name</label>
+                  <div class="col-sm-8">
+                    <input type="text" class="form-control" id="productname" name="productname" ngModel placeholder="E.g Rafnol 100ml">
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <label for="pprice" class="col-sm-4 col-form-label">Product Price</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="productprice" name="productprice" ngModel placeholder="250.5" step="any">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="pquantity" class="col-sm-4 col-form-label">Product Quantity</label>
+                    <div class="col-sm-8">
+                      <input type="text" class="form-control" id="productquantity" name="productquantity" ngModel placeholder="28">
+                    </div>
+                </div>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" #closebutton data-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </form>
+      </div>
+    </div>
+</div>
+
+
+
+  
