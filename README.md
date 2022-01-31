@@ -32,5 +32,15 @@ Startup up a new project like so...
 
     pip install django
     pip install djangorestframework
+    
+#Steps to Run API
+##Step-1 - Open Cmd
+##Step-2 - Go Inside this Path "E:\Problem Statement 01 Frontend+Backend App\Backend-Django\ProductDemoAPI"
+##Step-3 - Run this Project by giving Command - "python manage.py runserver" (*Note if some Libraries are Missing then isntall them using "pip")
+##Step-4 - Go to this Path for GET/POST - "http://127.0.0.1:8000/product/" and PUT/UPDATE - "http://127.0.0.1:8000/productdetails/10/"
+
+
+
+
 
 
