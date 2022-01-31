@@ -1,6 +1,6 @@
 # Medikabazaar-Assignment
 
-# Problem Statement 01
+# 1. Problem Statement 01
 
 # [Django REST framework][docs]
 
@@ -127,7 +127,7 @@ ng serve
 ###### *Note - Kindly Refer Document - https://github.com/sagar-sidhwa/Medikabazaar-Assignment/tree/master/Problem%20Statement%2001%20Frontend%2BBackend%20App
 
 
-# Problem Statement 02
+# 2. Problem Statement 02
 
 ###### *Note - Kindly Refer Document - https://github.com/sagar-sidhwa/Medikabazaar-Assignment/tree/master/Problem%20Statement%2002%20-%20Coding%20Problem
 
