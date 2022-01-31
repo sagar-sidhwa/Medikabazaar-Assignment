@@ -1,5 +1,7 @@
 # Medikabazaar-Assignment
 
+# Problem Statement 01
+
 # [Django REST framework][docs]
 
 [![build-status-image]][build-status]
@@ -33,11 +35,97 @@ Startup up a new project like so...
     pip install django
     pip install djangorestframework
     
-# Steps to Run API
-## Step-1 - Open Cmd
-## Step-2 - Go Inside this Path "E:\Problem Statement 01 Frontend+Backend App\Backend-Django\ProductDemoAPI"
-## Step-3 - Run this Project by giving Command - "python manage.py runserver" (*Note if some Libraries are Missing then isntall them using "pip")
-## Step-4 - Go to this Path for GET/POST - "http://127.0.0.1:8000/product/" and PUT/UPDATE - "http://127.0.0.1:8000/productdetails/10/"
+# Steps to Run BackEnd API
+#### Step-1 - Open Cmd
+#### Step-2 - Go Inside this Path "E:\Problem Statement 01 Frontend+Backend App\Backend-Django\ProductDemoAPI"
+#### Step-3 - Run this Project by giving Command - "python manage.py runserver" (*Note if some Libraries are Missing then isntall them using "pip")
+#### Step-4 - Go to this Path for GET/POST - "http://127.0.0.1:8000/product/" and PUT/UPDATE - "http://127.0.0.1:8000/productdetails/10/"
+
+<h1 align="center">Angular - The modern web developer's platform.</h1>
+
+<p align="center">
+  <img src="aio/src/assets/images/logos/angular/angular.png" alt="angular-logo" width="120px" height="120px"/>
+  <br>
+  <i>Angular is a development platform for building mobile and desktop web applications
+    <br> using Typescript/JavaScript and other languages.</i>
+  <br>
+</p>
+
+<p align="center">
+  <a href="https://www.angular.io"><strong>www.angular.io</strong></a>
+  <br>
+</p>
+
+<p align="center">
+  <a href="CONTRIBUTING.md">Contributing Guidelines</a>
+  ·
+  <a href="https://github.com/angular/angular/issues">Submit an Issue</a>
+  ·
+  <a href="https://blog.angular.io/">Blog</a>
+  <br>
+  <br>
+</p>
+
+<p align="center">
+  <a href="https://circleci.com/gh/angular/workflows/angular/tree/master">
+    <img src="https://img.shields.io/circleci/build/github/angular/angular/master.svg?logo=circleci&logoColor=fff&label=CircleCI" alt="CI status" />
+  </a>&nbsp;
+  <a href="https://www.npmjs.com/@angular/core">
+    <img src="https://img.shields.io/npm/v/@angular/core.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Angular on npm" />
+  </a>&nbsp;
+  <a href="https://discord.gg/angular">
+    <img src="https://img.shields.io/discord/463752820026376202.svg?logo=discord&logoColor=fff&label=Discord&color=7389d8" alt="Discord conversation" />
+  </a>
+</p>
+
+<hr>
+
+## Documentation
+
+Get started with Angular, learn the fundamentals and explore advanced topics on our documentation website.
+
+- [Getting Started][quickstart]
+- [Architecture][architecture]
+- [Components and Templates][componentstemplates]
+- [Forms][forms]
+- [API][api]
+
+### Advanced
+
+- [Angular Elements][angularelements]
+- [Server Side Rendering][ssr]
+- [Schematics][schematics]
+- [Lazy Loading][lazyloading]
+
+## Development Setup
+
+### Prerequisites
+
+- Install [Node.js] which includes [Node Package Manager][npm]
+
+### Setting Up a Project
+
+Install the Angular CLI globally:
+
+```
+npm install -g @angular/cli
+```
+
+Run the application:
+
+```
+cd [PROJECT NAME]
+ng serve
+```
+
+# Steps to Run FrontEnd UI
+#### Step-1 - Open Cmd
+#### Step-2 - Go Inside this Path "E:\Problem Statement 01 Frontend+Backend App\Frontend-Angular\ProductDemoUI"
+#### Step-3 - Run this Project by giving Command - "ng serve" (*Note if some Libraries are Missing then isntall them using npm)
+#### Step-4 - Go to this Path for Products Details - "http://localhost:4200/Products"
+
+###### *Note - Kindly Refer Document - https://github.com/sagar-sidhwa/Medikabazaar-Assignment/tree/master/Problem%20Statement%2001%20Frontend%2BBackend%20App
+
 
 
 
