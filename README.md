@@ -124,12 +124,12 @@ ng serve
 #### Step-3 - Run this Project by giving Command - "ng serve" (*Note if some Libraries are Missing then isntall them using npm)
 #### Step-4 - Go to this Path for Products Details - "http://localhost:4200/Products"
 
-###### *Note - Kindly Refer Document - https://github.com/sagar-sidhwa/Medikabazaar-Assignment/tree/master/Problem%20Statement%2001%20Frontend%2BBackend%20App
+###### *Note - Kindly Refer Document - https://github.com/sagar-sidhwa/Product App/blob/master/Problem%20Statement%2001%20Frontend%2BBackend%20App/Problem%20Statement%2001%20Solution%20Explaination.pdf
 
 
 # 2. Problem Statement 02
 
-###### *Note - Kindly Refer Document - https://github.com/sagar-sidhwa/Medikabazaar-Assignment/tree/master/Problem%20Statement%2002%20-%20Coding%20Problem
+###### *Note - Kindly Refer Document - https://github.com/sagar-sidhwa/Product-App/blob/master/Problem%20Statement%2002%20-%20Coding%20Problem/Problem%20Statement%2002%20Solution%20Explaination.pdf
 
 
 
