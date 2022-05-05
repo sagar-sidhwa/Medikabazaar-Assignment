@@ -1,4 +1,4 @@
-# Medikabazaar-Assignment
+# Product CRUD App
 
 # 1. Problem Statement 01
 
